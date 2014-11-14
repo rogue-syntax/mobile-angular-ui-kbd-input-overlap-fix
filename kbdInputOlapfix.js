@@ -26,10 +26,8 @@ angular.module('kbdInputOlapFix', [])
         	    	if ( elem !== scrollderWindow )
         	    		{
         				height += elem.offsetTop;
-        				 console.log(elem);
         	    		}
         		}
-        	    console.log(height);
         	    var scroller = scrollderWindow.scrollTop;
         	    var relD = height - scroller;
         	    var marginH = .5*vHeight;
